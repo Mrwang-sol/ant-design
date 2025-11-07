@@ -6,9 +6,9 @@ import type { CheckboxGroupProps } from 'antd/es/checkbox';
 const plainOptions: CheckboxGroupProps<string>['options'] = ['Apple', 'Pear', 'Orange'];
 
 const options: CheckboxGroupProps<string>['options'] = [
-  { label: 'Apple', value: 'Apple', className: 'label-1' },
-  { label: 'Pear', value: 'Pear', className: 'label-2' },
-  { label: 'Orange', value: 'Orange', title: 'Orange', className: 'label-3' },
+  { label: '1111', value: '1111', 33333: 'label-1' },
+  { label: '22222', value: 'Pear', className: 'label-2' },
+  { label: '33333', value: 'Orange', title: 'Orange', className: 'label-3' },
 ];
 
 const optionsWithDisabled: CheckboxGroupProps<string>['options'] = [
